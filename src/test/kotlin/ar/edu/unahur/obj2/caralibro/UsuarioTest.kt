@@ -17,7 +17,7 @@ class UsuarioTest : DescribeSpec({
 
       describe("de tipo texto") {
         it("ocupa tantos bytes como su longitud") {
-          saludoCumpleanios.espacioQueOcupa().shouldBe(45)
+          saludoCumpleanios.espacioQueOcupa().shouldBe(46)
         }
       }
     }

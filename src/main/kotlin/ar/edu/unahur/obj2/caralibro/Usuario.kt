@@ -7,5 +7,5 @@ class Usuario {
     publicaciones.add(publicacion)
   }
 
-  fun espacioDePublicaciones() = publicaciones.sumBy { it.espacioQueOcupa() }
+  fun espacioDePublicaciones() = publicaciones.sumBy { it.espacioQueOcupa() } + 100
 }
